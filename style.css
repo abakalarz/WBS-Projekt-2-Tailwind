@@ -1,1 +1,14 @@
-@import "tailwindcss";
+/* Grundlegende Einstellungen */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+}
+
+/* Markierung beim Auswählen von Text */
+::selection {
+  background: #222;
+  color: #fff;
+}

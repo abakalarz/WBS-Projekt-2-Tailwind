@@ -3,9 +3,551 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+
+    <title>Shop | Monogram</title>
+
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- Eigene CSS-Datei -->
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body class="bg-white text-[#222222] font-sans">
+    <!-- HEADER -->
+    <header class="w-full bg-white">
+      <nav
+        class="max-w-[1600px] mx-auto px-6 md:px-12 py-6 flex items-center justify-between"
+      >
+        <a href="#" class="text-2xl font-bold tracking-[0.2em]"> MONOGRAM </a>
+
+        <div class="hidden md:flex items-center gap-8 text-sm">
+          <a href="#" class="hover:text-gray-500 transition">How it Works</a>
+          <a href="#shop" class="hover:text-gray-500 transition">Shop</a>
+          <a href="#" class="hover:text-gray-500 transition">Download</a>
+        </div>
+
+        <button
+          class="border border-black rounded-full px-5 py-2 text-sm hover:bg-black hover:text-white transition"
+        >
+          Cart (0)
+        </button>
+      </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="shop">
+
+
+      <!-- SECTION 1: CONSOLES -->
+      <section
+        id="next"
+        class="max-w-[1600px] mx-auto px-6 md:px-12 pt-16 pb-24"
+      >
+        <div class="text-center mb-14 md:mb-20">
+          <h1
+            class="text-3xl md:text-5xl lg:text-6xl font-medium tracking-tight mb-5"
+          >
+            A Console for Every Workflow
+          </h1>
+
+          <p class="text-base md:text-lg text-gray-500">
+            Discover the perfect console for yours.
+          </p>
+        </div>
+
+        <!-- CONSOLE GRID -->
+        <div
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-x-6 gap-y-14"
+        >
+          <!-- MINI CONSOLE -->
+          <article class="group">
+            <a href="#" class="block bg-[#f5f5f5] overflow-hidden">
+              <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                <img
+                  src="images/mini-console.jpg.webp"
+                  alt="Monogram Mini Console"
+                  class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </a>
+
+            <div class="pt-5 min-h-[100px] flex flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <h2 class="text-lg font-medium">Mini Console</h2>
+                <span class="text-xs text-gray-500 whitespace-nowrap"
+                  >Sold Out</span
+                >
+              </div>
+
+              <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                Ideal for everyday shortcuts. Adaptable to any workflow.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-5 border-b border-black pb-1 text-sm hover:text-gray-500 hover:border-gray-500 transition"
+              >
+                Pre-order
+              </a>
+            </div>
+          </article>
+
+          <!-- AUDIO CONSOLE -->
+          <article class="group">
+            <a href="#" class="block bg-[#f5f5f5] overflow-hidden">
+              <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                <img
+                  src="images/audio-console.jpg.webp"
+                  alt="Monogram Audio Console"
+                  class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </a>
+
+            <div class="pt-5 min-h-[100px] flex flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <h2 class="text-lg font-medium">Audio Console</h2>
+                <span class="text-xs text-gray-500 whitespace-nowrap"
+                  >Sold Out</span
+                >
+              </div>
+
+              <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                Ideal for music &amp; audio. Adaptable to any workflow.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-5 border-b border-black pb-1 text-sm hover:text-gray-500 hover:border-gray-500 transition"
+              >
+                Pre-order
+              </a>
+            </div>
+          </article>
+
+          <!-- PHOTO CONSOLE -->
+          <article class="group">
+            <a href="#" class="block bg-[#f5f5f5] overflow-hidden">
+              <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                <img
+                  src="images/photo-console.jpg.webp"
+                  alt="Monogram Photo Console"
+                  class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </a>
+
+            <div class="pt-5 min-h-[100px] flex flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <h2 class="text-lg font-medium">Photo Console</h2>
+                <span class="text-xs text-gray-500 whitespace-nowrap"
+                  >Sold Out</span
+                >
+              </div>
+
+              <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                Ideal for photo &amp; video. Adaptable to any workflow.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-5 border-b border-black pb-1 text-sm hover:text-gray-500 hover:border-gray-500 transition"
+              >
+                Pre-order
+              </a>
+            </div>
+          </article>
+
+          <!-- VIDEO CONSOLE -->
+          <article class="group">
+            <a href="#" class="block bg-[#f5f5f5] overflow-hidden">
+              <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                <img
+                  src="images/video-console.jpg.webp"
+                  alt="Monogram Video Console"
+                  class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </a>
+
+            <div class="pt-5 min-h-[100px] flex flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <h2 class="text-lg font-medium">Video Console</h2>
+                <span class="text-xs text-gray-500 whitespace-nowrap"
+                  >Sold Out</span
+                >
+              </div>
+
+              <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                Ideal for Video &amp; Film. Adaptable to any workflow.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-5 border-b border-black pb-1 text-sm hover:text-gray-500 hover:border-gray-500 transition"
+              >
+                Pre-order
+              </a>
+            </div>
+          </article>
+
+          <!-- KEYBOARD + MULTIPAD -->
+          <article class="group">
+            <a href="#" class="block bg-[#f5f5f5] overflow-hidden">
+              <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                <img
+                  src="images/monogram keyboard + multipad.jpg.webp"
+                  alt="Monogram Keyboard and Multipad"
+                  class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                />
+              </div>
+            </a>
+
+            <div class="pt-5 min-h-[100px] flex flex-col">
+              <div class="flex items-start justify-between gap-2">
+                <h2 class="text-lg font-medium">
+                  Monogram Keyboard + Multipad
+                </h2>
+                <span class="text-xs text-gray-500 whitespace-nowrap"
+                  >Sold Out</span
+                >
+              </div>
+
+              <p class="text-sm text-gray-500 mt-3 leading-relaxed">
+                Adaptable to any workflow.
+              </p>
+
+              <a
+                href="#"
+                class="inline-block mt-5 border-b border-black pb-1 text-sm hover:text-gray-500 hover:border-gray-500 transition"
+              >
+                Pre-order
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+
+           <!-- HIER KOMMT DAS GROSSE BILD HIN -->
+            <div class="w-full">
+              <img
+                src="images/create-your-own-console.jpg.webp"
+                alt="Create Your Own Console"
+                class="w-full h-auto object-contain"
+                />
+              </div>
+
+          <!-- MODULE GRID -->
+          <div class="w-full max-w-[1600px] mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-8 mt-10"
+          >
+            <!-- KEYBOARD -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/monogram-keyboard.jpg.webp"
+                    alt="Monogram Keyboard"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Monogram Keyboard</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- MULTIPAD -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/monogram-multipad.jpg.webp"
+                    alt="Monogram Multipad"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Monogram Multipad</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- CORE -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/monogram-core.jpg.webp"
+                    alt="Monogram Core"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <h3 class="text-base font-medium">Monogram Core</h3>
+                <p class="text-sm text-gray-500 mt-2">$159</p>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </article>
+
+            <!-- SLIDER -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/slider-module.jpg.webp"
+                    alt="Monogram Slider Module"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Slider Module</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- ORBITER -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/orbiter-module.jpg.webp"
+                    alt="Monogram Orbiter Module"
+                    class="w-full h-full object-contain p-0 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Orbiter Module</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- ESSENTIAL KEYS -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/essential-keys-module.jpg.webp"
+                    alt="Monogram Essential Keys Module"
+                    class="w-full h-full object-contain p-0 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Essential Keys Module</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- DIAL -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/dial-module.jpg.webp"
+                    alt="Monogram Dial Module"
+                    class="w-full h-full object-contain p-0 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Dial Module</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- CARRYING CASE -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/monogram-carrying-case.jpg.webp"
+                    alt="Monogram Carrying Case"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <div class="flex items-center justify-between gap-2 min-h-[24px]">
+                  <h3 class="text-base font-medium">Monogram Carrying Case</h3>
+                  <span class="text-xs text-gray-500">Sold Out</span>
+                </div>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Pre-order
+                </a>
+              </div>
+            </article>
+
+            <!-- VIDEO PACK -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/console-pack-video.jpg.webp"
+                    alt="Monogram Console Pack Video"
+                    class="w-full h-full object-contain p-0 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <h3 class="text-base font-medium">Console Pack: Video</h3>
+                <p class="text-sm text-gray-500 mt-2">$69</p>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </article>
+
+            <!-- PHOTO PACK -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/console-pack-photo.jpg.webp"
+                    alt="Monogram Console Pack Photo"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <h3 class="text-base font-medium">Console Pack: Photo</h3>
+                <p class="text-sm text-gray-500 mt-2">$39</p>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </article>
+
+            <!-- AUDIO PACK -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/console-pack-audio.jpg.webp"
+                    alt="Monogram Console Pack Audio"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  />
+                </div>
+              </a>
+
+              <div class="pt-5 min-h-[100px] flex flex-col">
+                <h3 class="text-base font-medium">Console Pack: Audio</h3>
+                <p class="text-sm text-gray-500 mt-2">$29</p>
+
+                <a
+                  href="#"
+                  class="inline-block mt-auto pt-3 text-sm border-b border-black pb-1"
+                >
+                  Shop Now
+                </a>
+              </div>
+            </article>
+
+            <!-- MONOGRAM CARE -->
+            <article class="group">
+              <a href="#" class="block bg-white overflow-hidden">
+                <div class="aspect-square overflow-hidden bg-[#f3f3f3] flex items-center justify-center p-4">
+                  <img
+                    src="images/monogram-care.jpg.webp"
+                    alt="Monogram Care"
+                    class="w-full h-full object-contain p-5 transition-transform duration-500 hover:scale-105"
+                  /></div
+              ></a>
+                <div class="pt-5 min-h-[100px]">
+                  <h3 class="text-base font-medium">Monogram Care</h3>
+                </div>
+            </article>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
